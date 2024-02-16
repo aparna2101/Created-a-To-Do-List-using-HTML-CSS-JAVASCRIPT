@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgba(9, 3, 4, 0.775);
+}
+#wrapper{
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+    padding: 30px;
+    color: white;
+    background: radial-gradient(rgb(59, 57, 57),black);
+}
+#wrapper h1{
+    text-transform: uppercase;
+    margin-bottom: 4%;
+
+}
+#single-task{
+    width: 350px;
+    padding: 10px;
+}
+button{
+    background: rgb(103, 79, 100);
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.task{
+    margin-bottom:4px ;
+    margin-top: 20px ;
+    background: white;
+    color: rgb(10, 12, 14);
+    list-style: none;
+    padding: 0 15px;
+    line-height: 30px;
+
+}
+.task input[type="checkbox"]{
+    display: none;
+
+}
+.task .delete{
+    color: rgb(223, 5, 5);
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0;
+    float: right;
+}
